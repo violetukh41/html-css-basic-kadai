@@ -1,0 +1,42 @@
+/* ベースフォント設定 */
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+/* ルートフォントサイズ */
+:root {
+  font-size: 20px;
+}
+/* h1のスタイル */
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem; /* ルート要素の2倍 */
+  letter-spacing: 1.2em; /* 文字サイズの1.2倍 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* テキスト影 */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+}
+
+/* h1の色分け */
+h1 .blue {
+  color: skyblue;
+}
+
+h1 .pink {
+  color: rgb(255, 192, 203);
+}
+
+/* クラスで色指定 */
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+.blue {
+  color: skyblue;
+}
+
+/* id="basic" 内のスタイル */
+#basic p {
+  font-weight: bold; /* 太文字設定*/
+}
+
